@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birth Date Checker</title>
+    <link rel="shortcut icon" type="image/png" href="Resources/favicon.png">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="Resources/bootstrap.css">
+    
+    
+</head>
+<body>
+    <div class="heading">
+        <h1>Birth Date Checker</h1>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="wrapper">
+            <br>
+            <form class="form">
+                <div class="row">
+                    <label id="idnmb-field">
+                        <input type="text" name="idnmb-field" id="idnmb" placeholder="Enter the Identity Card number" required>
+                    </label>
+                </div>
+                
+        
+
+                <div class="row">
+                    <div class="col">
+                        <button type="button" id="enter">Enter</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        
+        <hr>
+        
+        
+        <table>
+            <tr>
+                <td>
+                    Birth Year
+                </td>
+                <td>
+                    <div id='displayYear' class="display" ></div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Birth Month
+                </td>
+                <td>
+                    <div id="displayMonth" class="display">
+
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Birth Date
+                </td>
+                <td>
+                    <div id="displayDate" class="display">
+
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Gender
+                </td>
+                <td>
+                    <div id="displayGender" class="display"> 
+
+                    </div>
+                </td>
+            </tr>
+        </table>
+        
+    </div>
+    
+    <hr>
+    <footer>
+        <div class="name">Nadeera Udayanga &copy; 2022</div>
+        <div onclick="showmail()" class="contactme">Contact Me</div>
+        <div id="showmymail"></div>
+        
+    </footer>
+
+    <script src="index.js"></script>
+    
+        
+</body>
+</html>
