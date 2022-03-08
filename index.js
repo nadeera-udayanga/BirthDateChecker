@@ -13,7 +13,7 @@ function showmail(){
 }
 function calculateBD(){
     const months=["January","February","March","April","May","June","July","August","September","October","November","December"];
-    const dates=[31,60,91,121,152,182,213,244,274,305,335];
+    const dates=[31,60,91,121,152,182,213,244,274,305,335,366];
     var idnumb = document.getElementById('idnmb').value;    
     var lengthOfId= idnumb.length;
     if (lengthOfId>=9 && lengthOfId<=12){
