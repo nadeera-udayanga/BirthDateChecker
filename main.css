@@ -114,8 +114,42 @@ footer{
 }
 
 
-@media(max-height: 768px){
+@media screen and(max-width:800px){
     .container{
-        height: 70vh;
+        max-width:50%h;
+        min-width:50%;
+        min-height: 30vh;
+        max-height: 50vh;
+    }
+    
+}
+
+
+@media screen and (max-width:580px) {
+    .container{
+        max-width:50%h;
+        min-width:50%;
+        min-height: 30vh;
+        max-height: 70vh;
+    }
+    table{
+        margin-top:10%;
+    }
+    .display{
+        min-width:65px;
+        font-size: small;
+        margin-left:15px;
+        padding-top: 5px;
+    }
+    input[type=text]{
+        min-width:20vh;
+        max-width:35vh;
+        font-size:13px ;
+    }
+    #enter{
+        font-size: 12px;
+    }
+    td{
+        font-size: 15px;
     }
 }
